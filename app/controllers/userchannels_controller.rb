@@ -1,0 +1,3 @@
+class UserchannelsController < ApplicationController
+   
+end
