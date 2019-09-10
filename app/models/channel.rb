@@ -3,6 +3,12 @@ class Channel < ApplicationRecord
     has_many :users, through: :userchannels
     
     has_many :messages
-    has_many :users, through: :messages
 
+    def members
+        self.users
+    end
+
+    def member_count
+        self.users.length
+    end
 end
