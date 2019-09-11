@@ -11,6 +11,8 @@ class ChannelsController < ApplicationController
         
     end
 
+  
+
     # def create
     #     user = user.create
     # end
