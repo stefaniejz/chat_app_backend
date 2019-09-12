@@ -16,8 +16,8 @@ user7 = User.create(username:"Stephanie", password: '123', avatar:"https://pic.q
 
 channel1 = Channel.create(name:"channel1", channel_type: "group")
 channel2 = Channel.create(name:"channel2", channel_type: "group")
-channel3 = Channel.create(name:"channel3", channel_type: "direct")
-channel4 = Channel.create(name:"channel5", channel_type: "direct")
+channel3 = Channel.create(name:"1_6", channel_type: "direct")
+channel4 = Channel.create(name:"1_2", channel_type: "direct")
 
 # message1 = Message.create(message_type:"text", content:"Hi, how are you?", user_id:1, channel_id:1)
 # message1 = Message.create(message_type:"text", content:"Good", user_id:2, channel_id:1)
